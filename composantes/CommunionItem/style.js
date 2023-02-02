@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
     fontSize:25,
   
   },
-  kyrieContainer: {
+  communionContainer: {
     paddingHorizontal: PADDIND.horizontal,
     paddingVertical: PADDIND.vertical,
   },
 
-  kyrieCard: {
+  communionCard: {
     flex: 1,
     flexDirection: "row",
     backgroundColor: "#d5bdaf",
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 
-  kyrieInfo: {
+  communionInfo: {
     flexDirection: "column",
     flexWrap:'wrap'
   },
-  kyrieTitle: {
+  communionTitle: {
     fontWeight: "bold",
     fontSize: 16,
     marginBottom: 15,

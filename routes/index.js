@@ -8,7 +8,10 @@ import InscriptionMaitre from "../ecrans/InscriptionMaitre";
 import InscriptionChoriste from "../ecrans/InscriptionChoriste";
 import Drawer from "../ecrans/Drawer";
 import Kyriale from "../ecrans/Kyriale";
-
+import Communion from "../ecrans/Communion";
+import Offertoire from "../ecrans/Offertoire";
+import Offrande from "../ecrans/Offrande";
+import Prossession from "../ecrans/Prossession";
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
@@ -35,6 +38,15 @@ const Routes = () => {
 
         {/* <Stack.Screen name="drawer" component={Drawer}/> */}
         <Stack.Screen name="Kyriale" component={Kyriale}/>
+
+        <Stack.Screen name="Communion" component={Communion}/>
+
+        <Stack.Screen name="Offertoire" component={Offertoire}/>
+
+        <Stack.Screen name="Offrande" component={Offrande}/>
+
+        <Stack.Screen name="Prossession" component={Prossession}/>
+        
         <Stack.Screen name="DrawerNavigator" component={DrawerNavigator}/>
         
       </Stack.Navigator>
@@ -48,7 +60,7 @@ const EcranPartiton = () => {
       style={{
         width: "100%",
         height: "100%",
-        backgroundColor: "#fff",
+        backgroundColor: "",
         justifyContent: "center",
         alignItems: "center",
       }}

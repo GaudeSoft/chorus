@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
     fontSize:25,
   
   },
-  kyrieContainer: {
+  prossessionContainer: {
     paddingHorizontal: PADDIND.horizontal,
     paddingVertical: PADDIND.vertical,
   },
 
-  kyrieCard: {
+  prossessionCard: {
     flex: 1,
     flexDirection: "row",
     backgroundColor: "#d5bdaf",
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 
-  kyrieInfo: {
+  prossessionInfo: {
     flexDirection: "column",
     flexWrap:'wrap'
   },
-  kyrieTitle: {
+  prossessionTitle: {
     fontWeight: "bold",
     fontSize: 16,
     marginBottom: 15,

@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
     fontSize:25,
   
   },
-  kyrieContainer: {
+  offertoireContainer: {
     paddingHorizontal: PADDIND.horizontal,
     paddingVertical: PADDIND.vertical,
   },
 
-  kyrieCard: {
+  offertoireCard: {
     flex: 1,
     flexDirection: "row",
     backgroundColor: "#d5bdaf",
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 
-  kyrieInfo: {
+  offertoireInfo: {
     flexDirection: "column",
     flexWrap:'wrap'
   },
-  kyrieTitle: {
+  offertoireTitle: {
     fontWeight: "bold",
     fontSize: 16,
     marginBottom: 15,

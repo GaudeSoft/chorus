@@ -1,7 +1,7 @@
 export const Donnee = [
   {
     id: 1,
-    title: "Possession",
+    title: "Prossession",
     details: "bref resume",
     img: "https://images.pexels.com/photos/7520780/pexels-photo-7520780.jpeg?auto=compress&cs=tinysrgb&w=600",
 

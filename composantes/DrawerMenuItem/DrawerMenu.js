@@ -5,7 +5,7 @@ import styles from "./style";
 
 const DrawerMenu = ({navigation}) => {
   return (
-    <ScrollView>
+    <ScrollView >
       <View style={styles.title_space_between}>
         <Text style={styles.titleBold}>Recueils de chants</Text>
       </View>
@@ -15,7 +15,7 @@ const DrawerMenu = ({navigation}) => {
             <TouchableOpacity 
               key={donnee.id} 
               style={styles.doctorsCard} 
-              onPress={()=>navigation.navigate('Kyriale')}
+              onPress={()=>navigation.navigate('Offrande')}
             >
               <Image
                 source={{ uri: `${donnee.img}` }}
