@@ -1,0 +1,77 @@
+import { StyleSheet } from "react-native";
+import { COLORS } from "../../outils/constantes";
+import { PADDIND } from "../../outils/constantes";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+
+    // backgroundColor: "#2699fb",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  text: {
+    marginTop: 50,
+    color: "#2699fb",
+    fontSize: 25,
+    lineHeight: 24,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  title_space_between: {
+    marginTop: 15,
+
+    // justifyContent: "center",
+  },
+  titleBold: {
+    fontWeight: "bold",
+    textAlign: "center",
+    fontSize:25,
+  },
+  link: {
+    color: COLORS.main,
+  },
+  doctorsContainer: {
+    paddingHorizontal: PADDIND.horizontal,
+    paddingVertical: PADDIND.vertical,
+  },
+
+  doctorsCard: {
+    flex: 1,
+    flexDirection: "row",
+    backgroundColor: "#d5bdaf",
+    elevation: 5,
+    padding: 10,
+    paddingHorizontal: PADDIND.horizontal,
+    paddingVertical: PADDIND.vertical,
+    marginBottom: 15,
+    borderRadius: 5,
+
+   
+  },
+  doctorImg: {
+    width: 80,
+    height: 80,
+    borderRadius: 80 / 2,
+    marginRight: 15,
+  },
+  doctorInfo: {
+    flexDirection: "column",
+  },
+  doctorName: {
+    fontWeight: "bold",
+    fontSize: 16,
+    marginBottom: 15,
+  },
+  doctorSpec: {
+    backgroundColor: COLORS.main,
+    padding: 5,
+    paddingHorizontal: PADDIND.horizontal,
+    // paddingVertical: PADDIND.vertical,
+    borderRadius: 15,
+    fontSize: 14,
+    color: "red",
+    fontStyle:'italic'
+  },
+});
+export default styles;
