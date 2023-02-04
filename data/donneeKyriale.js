@@ -30,7 +30,7 @@ export const DonneeKyriale = [
     },
     {
       id: 8,
-      title: "Messe ogo oluwa",
+      title: "Messe Ogo fo Olorun",
     },
     {
       id: 9,

@@ -1,11 +1,11 @@
 export const DonneeProssession = [
   {
     id: 1,
-    title: " QUE TES ŒUVRES SONT BELLES ",
+    title: "Que tes oeuvres sont belles",
   },
   {
     id: 2,
-    title: "PSAUME DE LA CRÉATION   ",
+    title: "Psaume de la création ",
   },
   {
     id: 3,
@@ -13,10 +13,18 @@ export const DonneeProssession = [
   },
   {
     id: 4,
-    title: "Gbebowa",
+    title: "Azan é klunon bassi",
   },
   {
     id: 5,
-    title: "Avosanu hé mi lé whlé ho",
+    title: "You are great",
   },
+  {
+    id: 6,
+    title: "Awanou"
+  },
+  {
+    id: 7,
+    title: "Ce jour que fit le Seigneur "
+  }
 ];
