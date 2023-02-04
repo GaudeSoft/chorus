@@ -15,7 +15,7 @@ const DrawerMenu = ({navigation}) => {
             <TouchableOpacity 
               key={donnee.id} 
               style={styles.doctorsCard} 
-              onPress={()=>navigation.navigate('Offrande')}
+              onPress={()=>navigation.navigate('Prossession')}
             >
               <Image
                 source={{ uri: `${donnee.img}` }}

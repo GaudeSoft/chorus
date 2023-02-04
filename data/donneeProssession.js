@@ -1,15 +1,15 @@
 export const DonneeProssession = [
   {
     id: 1,
-    title: " Vosanu miton lè dié",
+    title: " QUE TES ŒUVRES SONT BELLES ",
   },
   {
     id: 2,
-    title: "Gnamien Kpli",
+    title: "PSAUME DE LA CRÉATION   ",
   },
   {
     id: 3,
-    title: "Agbankan",
+    title: "Que soit béni",
   },
   {
     id: 4,

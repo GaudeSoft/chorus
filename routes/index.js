@@ -19,7 +19,7 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 
-const AVATAR = {source:{require:('../assets/images/woman.jpg')}}
+const AVATAR = { source: { require: "../assets/images/woman.jpg" } };
 const Stack = createNativeStackNavigator();
 
 const Routes = () => {
@@ -29,7 +29,6 @@ const Routes = () => {
         initialRouteName="home"
         screenOptions={{ headerShown: false }}
       >
-
         <Stack.Screen name="home" component={Acceuil} />
 
         <Stack.Screen name="inscription" component={InscriptionMaitre} />
@@ -37,18 +36,17 @@ const Routes = () => {
         <Stack.Screen name="inscriptions" component={InscriptionChoriste} />
 
         {/* <Stack.Screen name="drawer" component={Drawer}/> */}
-        <Stack.Screen name="Kyriale" component={Kyriale}/>
+        <Stack.Screen name="Kyriale" component={Kyriale} />
 
-        <Stack.Screen name="Communion" component={Communion}/>
+        <Stack.Screen name="Communion" component={Communion} />
 
-        <Stack.Screen name="Offertoire" component={Offertoire}/>
+        <Stack.Screen name="Offertoire" component={Offertoire} />
 
-        <Stack.Screen name="Offrande" component={Offrande}/>
+        <Stack.Screen name="Offrande" component={Offrande} />
 
-        <Stack.Screen name="Prossession" component={Prossession}/>
-        
-        <Stack.Screen name="DrawerNavigator" component={DrawerNavigator}/>
-        
+        <Stack.Screen name="Prossession" component={Prossession} />
+
+        <Stack.Screen name="DrawerNavigator" component={DrawerNavigator} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -100,16 +98,19 @@ const EcranParametre = () => {
   );
 };
 
-const DrawerNavigator = () =>{
-  return(
-      <DrawerNav.Navigator>
-          <DrawerNav.Screen initialRouteName="Acceuil" name="Acceuil" component={Drawer}/>
-          <DrawerNav.Screen name="Partitions" component={EcranPartiton}/>
-          <DrawerNav.Screen name="Parole" component={EcranParole}/>
-          <DrawerNav.Screen name="Paramètres" component={EcranParametre}/>
-      </DrawerNav.Navigator>
-  )
-}
-
+const DrawerNavigator = () => {
+  return (
+    <DrawerNav.Navigator>
+      <DrawerNav.Screen
+        initialRouteName="Acceuil"
+        name="Acceuil"
+        component={Drawer}
+      />
+      <DrawerNav.Screen name="Partitions" component={EcranPartiton} />
+      <DrawerNav.Screen name="Parole" component={EcranParole} />
+      <DrawerNav.Screen name="Paramètres" component={EcranParametre} />
+    </DrawerNav.Navigator>
+  );
+};
 
 export default Routes;
